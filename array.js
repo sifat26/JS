@@ -1,0 +1,14 @@
+let numbers=[22,44,56,26,55,66,25];
+console.log(numbers);
+console.log(numbers.length);
+console.log(numbers[3]);
+const h=numbers[4];
+console.log(h);
+numbers[0]=33;
+console.log(numbers);
+// numbers.push(12,24);
+// console.log(numbers);
+numbers.pop();
+console.log(numbers);
+console.log(numbers.includes(55));
+console.log(numbers.indexOf(26));
